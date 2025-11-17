@@ -13,7 +13,7 @@ services:
       - springboot-mysql-net
 
   backend:
-    image: bojanapallimeenapadmasiri/2300032161-Final-Backend:latest
+    image: bojanapallimeenapadmasiri/2300032161-final-backend:latest
     container_name: springboot
     ports:
       - "30032:2000"
@@ -24,7 +24,7 @@ services:
       - springboot-mysql-net
 
   frontend:
-    image: bojanapallimeenapadmasiri/2300032161-Final-Frontend:latest
+    image: bojanapallimeenapadmasiri/2300032161-final-frontend:latest
     container_name: react
     ports:
       - "30031:80"
